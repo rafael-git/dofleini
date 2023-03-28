@@ -1,0 +1,54 @@
+.header-container{
+    height: 66px;
+    width: 100%;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.options-container{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+
+}
+#option-modwell{
+    padding:16.5px;
+    font: normal normal normal 17px/23px Bahnschrift;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    text-transform: lowercase;
+}
+.options{
+    padding:16.5px;
+    font: normal normal normal 17px/23px Bahnschrift;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    text-transform: uppercase;
+}
+.link{
+    padding:16.5px;
+    font: normal normal normal 17px/23px Bahnschrift;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.modwell{
+    text-decoration: none;
+    text-align: left;
+    font: normal normal 300 35px/49px Bahnschrift;
+    letter-spacing: 0px;
+    color: #B4A78C;
+    opacity: 1;
+    padding-right: 15px;
+    border-right: 2px solid #B4A78C;
+}
+.user-photo{
+    height: 41px;
+    border-radius: 50%;
+}
