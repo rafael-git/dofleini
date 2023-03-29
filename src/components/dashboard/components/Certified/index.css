@@ -1,0 +1,81 @@
+.certified{
+    margin-right: 25px;
+}
+
+.img-certified{
+    position: relative;
+    left: 60px;
+    top: 51px;
+}
+
+.inner-circle{
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    border: 1px dashed #BBA78C; 
+    margin: 4px;
+}
+
+.second-circle{
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+    border: 1px dashed #BBA78C; 
+    margin: 4px;
+}
+
+.third-circle{
+    width: 245px;
+    height: 245px;
+    border-radius: 50%;
+    border: 1px dashed #1492E6; 
+    margin: 4px;
+}
+
+.fourth-circle{
+    width: 255px;
+    height: 255px;
+    border-radius: 50%;
+    border: 1.5px dashed #1492E6; 
+    margin: 4px;
+}
+
+.fifth-circle{
+    width: 265px;
+    height: 265px;
+    border-radius: 50%;
+    border: 2px dashed #1492E6; 
+}
+
+.certified-content{
+    position: relative;
+    left: 15%;
+    top: 18%;
+}
+.certified-title{
+    
+    width: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 5px;
+    font: normal normal bold 21px/28px Segoe UI;
+    letter-spacing: -2px;
+    color: #1492E6;
+    opacity: 1;
+    border-bottom: 1px solid #1492E6
+}
+
+.certified-value{
+    width: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 5px 10px 5px;
+    font: normal normal 400 21px/28px Segoe UI;
+    letter-spacing: 2px;
+    color: #1492E6;
+    opacity: 1;
+}
+.img-check{
+    position: relative;
+    left: 25%;
+}

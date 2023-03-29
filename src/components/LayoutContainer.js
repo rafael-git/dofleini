@@ -10,14 +10,18 @@ import Dashboard from "./dashboard";
 
 const LayoutContainer = (props) => {
     const dashboardState = useSelector(state => state.dashboard);
+    const cardState = useSelector(state=> state.cards);
+    const certifiedState = useSelector(state=> state.certifieds);
     return(
         <div className='container'>
             <Header />
-
-            <Routes>
-                <Route path='my-network' element={<MyNetwork />} />
-                <Route path='dashboard' element={<Dashboard dashboardInfo = {dashboardState}/>} />
-            </Routes>
+            <div className='content'>
+                <Routes>
+                    <Route path='my-network' element={<MyNetwork />} />
+                    <Route path='dashboard' element={<Dashboard dashboardInfo = {dashboardState} cardsInfo={cardState} certified={certifiedState}/>} />
+                </Routes>
+            </div>
+            
         </div>
     );
 };

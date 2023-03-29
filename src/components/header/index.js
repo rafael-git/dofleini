@@ -29,7 +29,7 @@ const Header = (props) => {
                 </div>  
                 <div>
                     <img src={User} alt="User" className="user-photo"/>
-                    <span>M</span>
+                    <span></span>
                 </div>
             </div>
 
