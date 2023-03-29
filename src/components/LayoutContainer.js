@@ -14,7 +14,7 @@ const LayoutContainer = (props) => {
     const certifiedState = useSelector(state=> state.certifieds);
     return(
         <div className='container'>
-            <Header />
+            {/* <Header /> */}
             <div className='content'>
                 <Routes>
                     <Route path='my-network' element={<MyNetwork />} />

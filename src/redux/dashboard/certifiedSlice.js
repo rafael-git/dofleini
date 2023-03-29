@@ -3,25 +3,25 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = [
     {
         title: '3D Desing',
-        value: 'Certified',
+        certified: true,
         icon: '',
         description:''
     },
     {
         title: 'Home Vault',
-        value: 'Certified',
+        certified: true,
         icon: '',
         description:''
     },
     {
         title: 'Metaverse',
-        value: 'Certified',
+        certified: true,
         icon: '',
         description:''
     },
     {
         title: 'Digital IP',
-        value: 'Certified',
+        certified: false,
         icon: '',
         description:''
     },

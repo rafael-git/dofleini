@@ -1,8 +1,11 @@
 import React from "react";
+import './index.css';
 
 import ListInfoCard from "./components/ListInfoCards";
 import CertifiedList from "./components/CertifiedList";
-import './index.css';
+import CardsHowToList from "./components/CardsHowToList";
+
+
 
 
 const Dashboard = (props) => {
@@ -18,7 +21,8 @@ const Dashboard = (props) => {
                 <span className='dashboard-subtitle'>Learn how best to use modwell!</span>
             </div>
             <ListInfoCard dashboardInfo={dashboardInfo}/>
-            <CertifiedList certified={certified}/>
+             <CertifiedList certified={certified}/>
+             <CardsHowToList cardsInfo={cardsInfo}/>
         </div>
     );
 };

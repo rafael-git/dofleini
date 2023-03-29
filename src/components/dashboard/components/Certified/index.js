@@ -6,6 +6,7 @@ import ok from '../../../../assets/img/ok.png'
 import './index.css';
 
 const Certified = (props) => {
+    const{ certified } = props;
     return (
         <div className='certified'>
             <img  className='img-certified' src={modwell} alt='text'/>
@@ -16,12 +17,12 @@ const Certified = (props) => {
                             <div className='inner-circle'>
                                 <div className='certified-content'>
                                     <div className='certified-title'>
-                                        {'3D Design'}
+                                        {certified.title}
                                     </div>
                                     <div className='certified-value'>
-                                        {'certified'}
+                                        {certified.certified ? 'certified' : 'not certified'}
                                     </div>
-                                    <img className='img-check' src={ok} alt='check'/>
+                                    {certified.certified ? <img className='img-check' src={ok} alt='check'/> : null}
                                 </div>
                                 
                             </div>
