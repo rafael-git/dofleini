@@ -34,9 +34,18 @@ const HomeVault = (props) => {
                 <span id='profile-description'>
                     Upload your survey floor plants and images to start building your model
                 </span>
-
            </div>
             <ButtonsList buttonInfo={buttonInfo} />
+            <div className='checkbox-container'>
+                <div className='check-text'>
+                    <span className='blue-text'>Publicly Listed</span>
+                    <div class="checkbox-example">
+                        <input type="checkbox" value="1" id="checkboxOneInput" />
+                        <label for="checkboxOneInput"></label>
+                    </div>
+                </div>
+                <span className='second-text'>Discoverable on modwell homepage, search, and your profile</span>
+            </div>
 
         </>
     );

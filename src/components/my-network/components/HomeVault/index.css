@@ -4,7 +4,7 @@
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
-    margin-bottom: 5px;
+    margin-bottom: 0;
 }
 
 .address-edit{
@@ -17,7 +17,7 @@
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
-    margin-right: 120px;
+    margin-right: 110px;
 }
 
 .edit{
@@ -31,7 +31,7 @@
     letter-spacing: 1px;
     color: #000000;
     opacity: 1;
-    margin-right: 78px;
+    margin-right: 68px;
 }
 
 .colors-picker{
@@ -47,7 +47,7 @@
     display: inline-flex;
     align-items: center;
     position: relative;
-    margin-top: 40px;
+    margin-top: 25px;
     border: 0.5px solid #000000;
   }
 .input-color  input[type=color] {
@@ -66,7 +66,7 @@
     .home-profile{
         display: flex;
         flex-direction: column;
-        margin: 30px 0;
+        margin: 20px 0;
         border-bottom: 1px solid #C8C8C8;
     }
 
@@ -95,6 +95,137 @@
         text-align: left;
         font: normal normal 300 14px/15px Segoe UI;
         letter-spacing: 0px;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
         color: #000000;
+    }
+
+    .checkbox-container{
+        display: flex;
+        flex-direction: column;
+        width: 531px;
+        margin-top: 10px;
+        padding-left: 15px;
+    }
+
+    .check-text{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    input[type=checkbox] {
+        visibility: hidden;
+      }
+      .checkbox-example {
+        width: 70px;
+        height: 28px;
+        background: #fff;
+        margin-right: 35px;
+        position: relative;
+        border-radius: 25px;
+        border: 1px solid #707070;
+      }
+      .checkbox-example label {
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        transition: all .5s ease;
+        cursor: pointer;
+        position: absolute;
+        top: 4px;
+        left: 5px;
+        background: #000;
+      }
+      .checkbox-example input[type=checkbox]:checked + label {
+        left: 46px;
+        background: #1492E6;
+      }
+
+      .second-text{
+        text-align: left;
+        font: normal normal 300 18px/26px Bahnschrift;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+      }
+
+
+      @media screen and (min-width: 320px) and (max-width:374.9px){
+        .header-title{
+            text-align: center;
+            font: normal normal bold 31px/50px Bahnschrift;
+            margin-top: 30px;
+        }
+        .address-edit {
+            margin-bottom: 10px;
+            padding: 0 10px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .address {
+            text-align: center;
+            font: normal normal 300 23px/31px Segoe UI;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 1;
+            margin: 0;
+        }
+        .home-details {
+            text-align: center;
+            font: normal normal 300 22px/31px Segoe UI;
+            letter-spacing: 1px;
+            color: #000000;
+            opacity: 1;
+            margin: 0;
+        }
+        .colors-picker {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10px;
+        }
+        .address-edit {
+            margin-bottom: 10px;
+            display: flex;
+            padding: 0 10px;
+            flex-direction: column;
+            align-items: center;
+        }
+        .home-details-edit{
+            padding: 0 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .input-color{
+            width: 65px;
+        }
+        .home-profile {
+            padding: 0 10px;
+            margin: 20px 0;
+        }
+        #profile-description {
+            text-align: center;
+        }
+        .buttons-container {
+            width: 90%;
+            padding: 0 10px;
+            margin-left: 5px;
+            margin-top: 20px;
+        }
+        .blue-text{
+            font: normal normal bold 20px/28px Segoe UI;
+        }
+        .checkbox-container {
+            width: 300px;
+            margin: 10px 0 40px 0;
+            padding: 0 10px;
+        }
+        .check-text{
+            margin-bottom: 5px;
+        }
+        .second-text{
+            text-align: center;
+        }
+
     }
