@@ -21,8 +21,8 @@ const Dashboard = (props) => {
                 <span className='dashboard-subtitle'>Learn how best to use modwell!</span>
             </div>
             <ListInfoCard dashboardInfo={dashboardInfo}/>
-             <CertifiedList certified={certified}/>
-             <CardsHowToList cardsInfo={cardsInfo}/>
+            <CertifiedList certified={certified}/>
+            <CardsHowToList cardsInfo={cardsInfo}/>
         </div>
     );
 };

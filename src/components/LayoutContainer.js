@@ -12,10 +12,12 @@ const LayoutContainer = (props) => {
     const dashboardState = useSelector(state => state.dashboard);
     const cardState = useSelector(state=> state.cards);
     const certifiedState = useSelector(state=> state.certifieds);
+    const flagState = useSelector(state=> state.flag);
+    console.log(flagState);
     return(
         <div className='container'>
             <Header />
-            <div className='content'>
+            <div className={flagState.flag ? 'content-network' : 'content'}>
                 <Routes>
                     <Route path='my-network' element={<MyNetwork />} />
                     <Route path='dashboard' element={<Dashboard dashboardInfo = {dashboardState} cardsInfo={cardState} certified={certifiedState}/>} />

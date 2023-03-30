@@ -1,15 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import {useDispatch} from 'react-redux'
 import './index.css';
 import User from '../../assets/img/user-4.jpg';
 import { useRef } from "react";
+import { flagToggle } from "../../redux/flag/flagSlice";
+
 
 
 const Header = (props) => {
 
     const menuRef = useRef();
-
+    const dispatch = useDispatch();
     const toggleMenu = () =>{
         menuRef.current.classList.toggle('hide');
     };
@@ -23,9 +25,6 @@ const Header = (props) => {
         
     });
 
-    console.log(window.location);
-    console.log(window.location.pathname === '/dashboard')
-        
     return (
         <>
         <div className='header-container'>
@@ -46,7 +45,7 @@ const Header = (props) => {
                 </div>
                 <div style={{display: 'flex'}}>
                     <div className='options'>
-                        <Link to='/dashboard' className='link'>My dashboards</Link>
+                        <Link to='/dashboard' onClick={() => dispatch(flagToggle(false))} className='link'>My dashboards</Link>
                     </div>
                     <div className='options'>
                         <Link to='/dashboard' className='link'>My Client</Link>
@@ -58,7 +57,7 @@ const Header = (props) => {
                         <Link to='/dashboard' className='link'>My Moodboards</Link>
                     </div>
                     <div className="options">
-                        <Link to="/my-network" className='link'>My network</Link>
+                        <Link to="/my-network" onClick={() => dispatch(flagToggle(true))} className='link'>My network</Link>
                     </div>  
                     <div>
                         <img src={User} alt="User" className="user-photo"/>
