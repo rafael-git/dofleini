@@ -65,3 +65,9 @@
         width: 415px;
     }
 }
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .how-to-card{
+        width: 390px;
+    }
+}

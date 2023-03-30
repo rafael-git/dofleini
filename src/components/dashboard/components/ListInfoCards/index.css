@@ -35,3 +35,9 @@
     
     }
 }
+
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+    .card-container{
+        margin-left: 65px;
+    }
+}
