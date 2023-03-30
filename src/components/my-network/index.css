@@ -1,5 +1,23 @@
 .my-network-container{
     display: flex;
     width: 100%;
-    background-color: brown;
+    padding-top:100px;
+}
+
+.first-section{
+    display:flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.second-section{
+    display:flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.third-section{
+    display:flex;
+    flex-direction: column;
+    width: 40%;
 }
