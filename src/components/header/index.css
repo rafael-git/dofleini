@@ -6,12 +6,26 @@
     flex-direction: row;
     justify-content: space-between;
 }
-
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.hide{
+    display: none;
+}
 .options-container{
     display: flex;
     align-items: center;
-    margin-right: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    width: 100%;
 
+}
+.hamburger{
+    display: none;
+}
+#options-left{
+    margin-right: 625px;
 }
 #option-modwell{
     padding:16.5px;
@@ -21,6 +35,12 @@
     opacity: 1;
     text-transform: lowercase;
 }
+.resp-menu{
+    text-align: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
 .options{
     padding:16.5px;
     font: normal normal normal 17px/23px Bahnschrift;
@@ -28,7 +48,16 @@
     color: #000000;
     opacity: 1;
     text-transform: uppercase;
+    cursor: pointer;
 }
+.link:hover, .options:hover{
+    color: #B4A78C;
+}
+
+.active{
+    color: #B4A78C !important; 
+}
+
 .link{
     padding:16.5px;
     font: normal normal normal 17px/23px Bahnschrift;
@@ -38,6 +67,7 @@
     text-transform: uppercase;
     text-decoration: none;
 }
+
 .modwell{
     text-decoration: none;
     text-align: left;
@@ -51,4 +81,59 @@
 .user-photo{
     height: 41px;
     border-radius: 50%;
+    margin-top: 6px;
+}
+
+.line{
+    min-width: 25px;
+    min-height: 3px;
+    margin-bottom: 2px;
+    background-color: #000000;       
+}
+
+.two-left-elements{
+    display: none;
+}
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 1024px){
+    .options-container{
+        display: none;
+    }
+    .two-left-elements{
+        display: flex;
+    }
+    .options:hover{
+        color: #B4A78C;
+    }
+    .hamburger{
+        display: flex;
+        flex-direction: column;
+        padding: 25px 10px;
+    }
+    .resp-menu{
+        background-color: #F8FAFC;
+        position: absolute;
+        z-index: 10;
+    }
+    .link{
+        padding: 0;
+    }
+
+    .link:hover, .options:hover{
+        color: #B4A78C;
+    }
+    .user-photo{
+        height: 41px;
+        border-radius: 50%;
+        margin-top: 12px;
+        margin-left: 20px;
+    }
+    .header-container{
+        justify-content: center;
+    }
+
+    
 }
