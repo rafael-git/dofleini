@@ -79,3 +79,13 @@
     position: relative;
     left: 25%;
 }
+
+.description{
+    margin-top: 47px;
+    text-align: center;
+    width: 269px;
+}
+.description-text{
+    font: normal normal 500 18px/27px Segoe UI;
+}
+
