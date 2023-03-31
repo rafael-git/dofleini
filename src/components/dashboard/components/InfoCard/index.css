@@ -239,4 +239,10 @@
         height: 312px;
     }
 }
+
+@media screen and (width: 1440px) {
+    .card-description {
+        width: 470px;
+    }
+}
     

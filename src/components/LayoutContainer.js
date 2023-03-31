@@ -16,13 +16,14 @@ const LayoutContainer = (props) => {
     const flagState = useSelector(state=> state.flag);
     const homeState = useSelector(state=> state.home);
     const buttonState = useSelector(state=> state.button);
+    const modalState = useSelector(state => state.modal);
 
     return(
         <div className='container'>
             <Header />
             <div className={flagState.flag ? 'content-network' : 'content'}>
                 <Routes>
-                    <Route path='my-network' element={<MyNetwork homeInfo={homeState} buttonInfo={buttonState}/>} />
+                    <Route path='my-network' element={<MyNetwork homeInfo={homeState} buttonInfo={buttonState} open={modalState.open}/>} />
                     <Route path='dashboard' element={<Dashboard dashboardInfo = {dashboardState} cardsInfo={cardState} certified={certifiedState}/>} />
                 </Routes>
             </div>

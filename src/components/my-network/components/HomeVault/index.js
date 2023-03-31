@@ -1,17 +1,27 @@
 import React from "react";
 import ButtonsList from "../ButtonsList";
+import { useDispatch } from "react-redux";
+import { toggleModal } from "../../../../redux/homes/modalSlice";
 
 
 import ColorPicker from "../ColorPicker";
+
 import './index.css';
 
 
 const HomeVault = (props) => {
     const {
         homeInfo,
-        buttonInfo
+        buttonInfo,
+        open
     } = props;
 
+    const dispatch = useDispatch();
+    
+    const handleModal = () => {
+        dispatch(toggleModal(!open))
+    };
+ 
     return(
         <>
             <div className='header-title'>
@@ -19,11 +29,11 @@ const HomeVault = (props) => {
             </div>
             <div className='address-edit'>
                 <span className='address'>{homeInfo.address}</span>
-                <span className='edit'>Edit</span>
+                <span className='edit' onClick={()=>handleModal()}>Edit</span>
             </div>
             <div className='home-details-edit'>
                 <span className='home-details'>{`${homeInfo.beds} BEDS | ${homeInfo.baths} BATHS | ${homeInfo.sqft} Sqft | ${homeInfo.acres} Acres`}</span>
-                <span className='edit'>Edit</span>
+                <span className='edit'onClick={()=>handleModal()} >Edit</span>
             </div>
            <ColorPicker />
            <div className='home-profile'>
@@ -39,7 +49,7 @@ const HomeVault = (props) => {
             <div className='checkbox-container'>
                 <div className='check-text'>
                     <span className='blue-text'>Publicly Listed</span>
-                    <div class="checkbox-example">
+                    <div className="checkbox-example">
                         <input type="checkbox" value="1" id="checkboxOneInput" />
                         <label for="checkboxOneInput"></label>
                     </div>

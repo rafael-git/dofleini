@@ -2,6 +2,7 @@
     display: flex;
     width: 100%;
     padding-top:100px;
+    margin-bottom: 100px;
 }
 
 .first-section{
@@ -11,9 +12,11 @@
 }
 
 .second-section{
-    display:flex;
+    display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 30%;
+    align-items: end;
+    padding-right: 50px;
 }
 
 .third-section{
@@ -22,8 +25,67 @@
     width: 40%;
 }
 
+.upload-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.download-button{
+    border: none;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 29px;
+    opacity: 1;
+    width: 283px;
+    height: 76px;
+    text-align: center;
+    font: normal normal bold 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    background: #fff;
+}
+.video-container{
+    width: 600px;
+    height: 600px;
+    border: 1px solid #707070;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 @media screen and (min-width: 320px) and (max-width:374.9px){
     .my-network-container{
         padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .first-section{
+        flex-direction: column;
+    }
+    .first-section{
+        display:flex;
+        flex-direction: column;
+        width: 320px;
+    }
+    
+    .second-section{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        align-items: center;
+        padding-right: 0;
+        margin-bottom: 75px;
+    }
+    
+    .third-section{
+        display:flex;
+        flex-direction: column;
+        width: 320px;
+        align-items: center;
+    }
+    .video-container{
+        width: 300px;
+        height: 300px;
     }
 }

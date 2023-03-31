@@ -1,0 +1,43 @@
+.upload-btn-wrapper{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    border: 2px dashed #707070;
+    width: 283px;
+    height: 180px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+   
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+
+  .inside-upload{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  #plus{
+    font: normal normal bold 23px/31px Segoe UI;
+    color: #707070;
+  }
+
+  #category{
+    font: normal normal bold 21px/25px Segoe UI;
+    color: #000;
+  }
+
+  #description{
+    font: normal normal 500 15px/20px Segoe UI;
+    color: #707070;
+  }
