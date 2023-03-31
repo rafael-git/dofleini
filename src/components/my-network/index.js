@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { DefaultPlayer as Video } from "react-html5video";
 import Modal from "./components/Modal/index";
 
@@ -10,6 +10,8 @@ import './index.css';
 import Upload from "./components/Upload";
 import { useDispatch } from "react-redux";
 import { toggleModal } from "../../redux/homes/modalSlice";
+import { flagToggle } from "../../redux/flag/flagSlice";
+import Share from "./components/Share";
 
 const MyNetwork = (props) => {
     const {
@@ -19,6 +21,10 @@ const MyNetwork = (props) => {
     } = props;
 
     const dispatch = useDispatch();
+
+    useEffect(()=>{
+        dispatch(flagToggle(true));
+    },[]);
 
     return(
         <div className='my-network-container'>
@@ -39,6 +45,7 @@ const MyNetwork = (props) => {
                         <source src={Intro} type='video/mp4' />
                     </Video>
                 </div>
+                <Share />
             </div>
             <Modal open={open} toggleModal={() => dispatch(toggleModal(!open))}/>
         </div>

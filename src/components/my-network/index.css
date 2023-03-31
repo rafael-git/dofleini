@@ -14,15 +14,15 @@
 .second-section{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 399px;
     align-items: end;
-    padding-right: 50px;
+    padding-right: 30px;
 }
 
 .third-section{
     display:flex;
     flex-direction: column;
-    width: 40%;
+    width: 783px;
 }
 
 .upload-section{
@@ -44,7 +44,7 @@
     background: #fff;
 }
 .video-container{
-    width: 600px;
+    width: 783px;
     height: 600px;
     border: 1px solid #707070;
     border-radius: 30px;
@@ -53,6 +53,7 @@
     flex-direction: column;
     justify-content: center;
 }
+
 
 @media screen and (min-width: 320px) and (max-width:374.9px){
     .my-network-container{
@@ -87,5 +88,186 @@
     .video-container{
         width: 300px;
         height: 300px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width:424.9px){
+    .my-network-container{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .first-section{
+        flex-direction: column;
+    }
+    .first-section{
+        display:flex;
+        flex-direction: column;
+        width: 375px;
+    }
+    
+    .second-section{
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        align-items: center;
+        padding-right: 0;
+        margin-bottom: 75px;
+    }
+    
+    .third-section{
+        display:flex;
+        flex-direction: column;
+        width: 375px;
+        align-items: center;
+    }
+    .video-container{
+        width: 355px;
+        height: 355px;
+    }
+}
+@media screen and (min-width: 425px) and (max-width:767.9px){
+    .my-network-container{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .first-section{
+        flex-direction: column;
+    }
+    .first-section{
+        display:flex;
+        flex-direction: column;
+        width: 425px;
+    }
+    
+    .second-section{
+        display: flex;
+        flex-direction: column;
+        width: 425px;
+        align-items: center;
+        padding-right: 0;
+        margin-bottom: 75px;
+    }
+    
+    .third-section{
+        display:flex;
+        flex-direction: column;
+        width: 425px;
+        align-items: center;
+    }
+    .video-container{
+        width: 405px;
+        height: 405px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1023.9px){
+    .my-network-container{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .first-section{
+        flex-direction: column;
+    }
+    .first-section{
+        display:flex;
+        flex-direction: column;
+        width: 600px;
+    }
+    
+    .second-section{
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        align-items: center;
+        padding-right: 0;
+        margin-bottom: 75px;
+    }
+    
+    .third-section{
+        display:flex;
+        flex-direction: column;
+        width: 600px;
+        align-items: center;
+    }
+    .video-container{
+        width: 550px;
+        height: 550px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1439.9px){
+    .my-network-container{
+        display: grid;
+        width: 100%;
+        padding-top: 100px;
+        grid-template-columns: 531px 300px;
+        margin-bottom: 100px;
+    }
+    .first-section{
+        flex-direction: column;
+    }
+    .first-section{
+        display:flex;
+        flex-direction: column;
+        width: 530px;
+    }
+    
+    .second-section{
+        display: flex;
+        flex-direction: column;
+        width: 340px;
+        align-items: center;
+        padding-right: 0;
+        margin-bottom: 75px;
+    }
+    
+    .third-section{
+        display: flex;
+        flex-direction: column;
+        width: 865px;
+        margin-top: 50px;
+    }
+    .video-container{
+        width: 865px;
+        height: 600px;
+    }
+}
+
+
+@media screen and (min-width: 1440px) and (max-width:1751px){
+    .my-network-container{
+        width: 100%;
+        padding-top: 100px;
+        margin-bottom: 100px;
+    }
+    .first-section{
+        display: flex;
+        flex-direction: column;
+        width: 380px;
+    }
+    
+    .second-section{
+        display: flex;
+        flex-direction: column;
+        width: 355px;
+        justify-content: space-between;
+        align-items: end;
+        padding-right: 0;
+        /* margin-bottom: 75px; */
+        margin-right: 50px;
+    }
+    
+    .third-section{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        /* margin-top: 50px;*/
+    }
+    .video-container{
+        width: 500px;
+        height: 639px;
     }
 }

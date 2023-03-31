@@ -252,3 +252,348 @@ input[type=checkbox] {
     }
 
 }
+
+@media screen and (min-width:375px) and (max-width:424.9px){
+    .header-title {
+        text-align: center;
+        font: normal normal bold 31px/50px Bahnschrift;
+        margin-top: 30px;
+    }
+
+    .address-edit {
+        margin-bottom: 10px;
+        padding: 0 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .address {
+        text-align: center;
+        font: normal normal 300 23px/31px Segoe UI;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        margin: 0;
+    }
+
+    .home-details {
+        text-align: center;
+        font: normal normal 300 22px/31px Segoe UI;
+        letter-spacing: 1px;
+        color: #000000;
+        opacity: 1;
+        margin: 0;
+    }
+
+    .colors-picker {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    .address-edit {
+        margin-bottom: 10px;
+        display: flex;
+        padding: 0 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-details-edit {
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-color {
+        width: 65px;
+    }
+
+    .home-profile {
+        padding: 0 10px;
+        margin: 20px 0;
+    }
+
+    #profile-description {
+        text-align: center;
+    }
+
+    .buttons-container {
+        width: 92%;
+        padding: 0 10px;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+
+    .blue-text {
+        font: normal normal bold 20px/28px Segoe UI;
+    }
+
+    .checkbox-container {
+        width: 355px;
+        margin: 10px 0 40px 0;
+        padding: 0 10px;
+    }
+
+    .checkbox-example {
+        margin-right: 10px;
+    }
+
+    .check-text {
+        margin-bottom: 5px;
+        margin-left: 30px;
+    }
+
+    .second-text {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:425px) and (max-width:767.9px){
+    .header-title {
+        text-align: center;
+        font: normal normal bold 31px/50px Bahnschrift;
+        margin-top: 30px;
+    }
+
+    .address-edit {
+        margin-bottom: 10px;
+        padding: 0 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .address {
+        text-align: center;
+        font: normal normal 300 23px/31px Segoe UI;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        margin: 0;
+    }
+
+    .home-details {
+        text-align: center;
+        font: normal normal 300 22px/31px Segoe UI;
+        letter-spacing: 1px;
+        color: #000000;
+        opacity: 1;
+        margin: 0;
+    }
+
+    .colors-picker {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    .address-edit {
+        margin-bottom: 10px;
+        display: flex;
+        padding: 0 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-details-edit {
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-color {
+        width: 90px;
+    }
+
+    .home-profile {
+        padding: 0 10px;
+        margin: 20px 0;
+    }
+
+    #profile-description {
+        text-align: center;
+    }
+
+    .buttons-container {
+        width: 93%;
+        padding: 0 10px;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+
+    .blue-text {
+        font: normal normal bold 20px/28px Segoe UI;
+    }
+
+    .checkbox-container {
+        width: 390px;
+        margin: 10px 0 40px 0;
+        padding: 0 10px;
+    }
+
+    .checkbox-example {
+        margin-right: 10px;
+    }
+
+    .check-text {
+        margin-bottom: 5px;
+        margin-left: 15px;
+    }
+
+    .second-text {
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023.9px){
+    .header-title {
+        text-align: center;
+        font: normal normal bold 31px/50px Bahnschrift;
+        margin-top: 30px;
+    }
+
+    .address-edit {
+        margin-bottom: 10px;
+        display: flex;
+        padding: 0 10px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .address {
+        text-align: center;
+        font: normal normal 300 23px/31px Segoe UI;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        margin: 0;
+    }
+
+    .home-details {
+        text-align: center;
+        font: normal normal 300 22px/31px Segoe UI;
+        letter-spacing: 1px;
+        color: #000000;
+        opacity: 1;
+        margin: 0;
+    }
+
+    .colors-picker {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    .address-edit {
+        padding: 0 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .home-details-edit {
+        padding: 0 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .input-color {
+        width: 120px;
+    }
+
+    .home-profile {
+        padding: 0 10px;
+        margin: 20px 0;
+    }
+
+    #profile-description {
+        text-align: left;
+    }
+
+    .buttons-container {
+        width: 100%;
+        padding: 0 10px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .blue-text {
+        font: normal normal bold 20px/28px Segoe UI;
+    }
+
+    .checkbox-container {
+        width: 600px;
+        margin: 10px 0 40px 0;
+        padding: 0 10px;
+    }
+
+    .checkbox-example {
+        margin-right: 10px;
+    }
+
+    .check-text {
+        margin-bottom: 5px;
+        margin-left: 15px;
+    }
+
+    .second-text {
+        text-align: left;
+        margin-left: 15px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) and (max-width:1751px){
+    .address-edit{
+        margin-bottom: 10px;
+        justify-content: space-between;
+        display: flex;
+    }
+    .home-details-edit{
+        margin-bottom: 10px;
+        justify-content: space-between;
+        display: flex;
+    }
+    .address{
+        text-align: left;
+        font: normal normal 300 20px/31px Segoe UI;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        /* margin-right: 110px;*/
+    }
+    .home-details{
+        text-align: left;
+        font: normal normal 300 20px/31px Segoe UI;
+        letter-spacing: 1px;
+        color: #000000;
+        opacity: 1;
+        margin-right: 51px;
+    }
+    .input-color{
+        width: 80px;
+    }
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        height: 61px;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 27px;
+        opacity: 1;
+        padding: 23px 37px;
+        margin-bottom: 24px;
+    }
+    .checkbox-container{
+        width: 380px;
+    }
+}

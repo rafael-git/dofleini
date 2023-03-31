@@ -7,7 +7,6 @@ import './LayoutContainer.css'
 import Header from "./header";
 import MyNetwork from "./my-network";
 import Dashboard from "./dashboard";
-import Blank from "./blank";
 
 const LayoutContainer = (props) => {
     const dashboardState = useSelector(state => state.dashboard);

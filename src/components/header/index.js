@@ -37,27 +37,27 @@ const Header = (props) => {
             <div className='options-container'>
                 <div style={{display: 'flex'}}>
                     <div className='options'>
-                        <Link to='/dashboard' className='link'>marketplace</Link>
+                        <Link to='' className='link'>marketplace</Link>
                     </div>
                     <div className='options'>
-                        <Link to='/dashboard' className='link'>inspiration</Link>
+                        <Link to='' className='link'>inspiration</Link>
                     </div>
                 </div>
                 <div style={{display: 'flex'}}>
                     <div className='options'>
-                        <Link to='/dashboard' onClick={() => dispatch(flagToggle(false))} className='link'>My dashboards</Link>
+                        <Link to='/dashboard' className='link'>My dashboards</Link>
                     </div>
                     <div className='options'>
-                        <Link to='/dashboard' className='link'>My Client</Link>
+                        <Link to='' className='link'>My Client</Link>
                     </div>
                     <div className='options'>
-                        <Link to='/dashboard' className='link'>My Listing</Link>
+                        <Link to='' className='link'>My Listing</Link>
                      </div> 
                     <div className='options'>
-                        <Link to='/dashboard' className='link'>My Moodboards</Link>
+                        <Link to='' className='link'>My Moodboards</Link>
                     </div>
                     <div className="options">
-                        <Link to="/my-network" onClick={() => dispatch(flagToggle(true))} className='link'>My network</Link>
+                        <Link to="/my-network" className='link'>My network</Link>
                     </div>  
                     <div>
                         <img src={User} alt="User" className="user-photo"/>
