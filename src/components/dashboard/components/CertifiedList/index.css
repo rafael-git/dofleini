@@ -19,7 +19,7 @@
         display: flex;
         padding: 25px 5px;
         min-height: 370px;
-
+        margin-bottom: 100px;
         overflow-x: scroll;
     }
 }
