@@ -9,7 +9,7 @@ const ButtonsList = (props) => {
     return (
         <div className='buttons-container'>
             {buttonInfo.map(info => (
-                 <Button buttonInfo={info}/>
+                 <Button key={info.id} buttonInfo={info}/>
             ))}
         </div>
     );

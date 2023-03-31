@@ -7,7 +7,7 @@ const CertifiedList = (props) => {
     return (
         <div className='certified-container'>
             {certified.map((cert) => (
-                <Certified certified={cert}/>
+                <Certified  key={cert.id} certified={cert}/>
             ))}
         </div>
     );

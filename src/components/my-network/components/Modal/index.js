@@ -27,11 +27,11 @@ const Modal = (props) => {
                 <div className='modal-content'>
                 <div className='modal-header'>Edit</div>
                     <form onSubmit={handleSubmit} className='form'>
-                        <label for='input-text' className='label'>
+                        <label htmlFor='input-text' className='label'>
                             Name:
                             <input name='name' id='input-text' type='text' onChange={handleChange}/>
                         </label>
-                        <label className='label' for='textarea'>
+                        <label className='label' htmlFor='textarea'>
                             Description
                             <textarea name='description' id='textarea' type='text' onChange={handleChange}/>
                         </label> 

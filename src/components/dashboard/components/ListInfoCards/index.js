@@ -8,7 +8,7 @@ const ListInfoCard = (props) => {
     return(
         <div className='card-container'> 
              {dashboardInfo.map((card => (
-                <div className='card'>
+                <div key={card.id} className='card'>
                     <InfoCard dashboardInfo={card}/> 
                 </div>
                  

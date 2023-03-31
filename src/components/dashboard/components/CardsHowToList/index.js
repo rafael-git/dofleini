@@ -8,7 +8,7 @@ const CardsHowToList = (props) => {
     return (
         <div className='cards-how-container'>
             {cardsInfo.map(card => (
-                <CardHowTo cardsInfo={card} />
+                <CardHowTo key={card.id} cardsInfo={card} />
             ))}
         </div>
     );

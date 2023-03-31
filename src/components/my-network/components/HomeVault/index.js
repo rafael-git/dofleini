@@ -51,7 +51,7 @@ const HomeVault = (props) => {
                     <span className='blue-text'>Publicly Listed</span>
                     <div className="checkbox-example">
                         <input type="checkbox" value="1" id="checkboxOneInput" />
-                        <label for="checkboxOneInput"></label>
+                        <label htmlFor="checkboxOneInput"></label>
                     </div>
                 </div>
                 <span className='second-text'>Discoverable on modwell homepage, search, and your profile</span>

@@ -31,7 +31,7 @@ export const IconDashboard = (props) => {
         case 'LeadConverter':
             return(
                 <svg className='size-icon' xmlns="http://www.w3.org/2000/svg" width="38.938" height="43.54" viewBox="0 0 38.938 43.54">
-                    <path id="Path_5396" data-name="Path 5396" d="M713.5,73.216h36.938V48.235L731.972,32.008,713.5,48.306V73.572" transform="translate(-712.503 -30.676)" fill="none" stroke="#fff" stroke-width="2"/>
+                    <path id="Path_5396" data-name="Path 5396" d="M713.5,73.216h36.938V48.235L731.972,32.008,713.5,48.306V73.572" transform="translate(-712.503 -30.676)" fill="none" stroke="#fff" strokeWidth="2"/>
                 </svg>
             );
         case '3DHomeVault':
