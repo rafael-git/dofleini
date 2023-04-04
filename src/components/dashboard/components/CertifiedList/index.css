@@ -1,18 +1,66 @@
 .certified-container{
     display: flex;
-    padding: 25px 50px;
+    padding: 25px 0;
     min-height: 500px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-@media screen and (min-width: 320px) and (max-width:1024px){
+@media screen and (min-width: 320px) and (max-width:374.9px){
     .certified-container{
         display: flex;
-        padding: 25px 30px;
+        padding: 25px 0;
         min-height: 370px;
-
+        width: 315px;
+        overflow-x: scroll;
+        gap: 30px;
+    }
+}
+@media screen and (min-width: 375px) and (max-width:424.9px){
+    .certified-container{
+        display: flex;
+        padding: 25px 0;
+        min-height: 370px;
+        width: 370px;
         overflow-x: scroll;
     }
 }
+
+@media screen and (min-width: 425px) and (max-width:767.9px){
+    .certified-container{
+        display: flex;
+        padding: 25px 0;
+        min-height: 370px;
+        width: 420px;
+        overflow-x: scroll;
+    }
+}
+
+
+@media screen and (width: 768px) {
+    .certified-container{
+        display: flex;
+        padding: 25px 0;
+        flex-wrap: nowrap;
+        min-height: 370px;
+        width: 763px;
+        gap: 30px;
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px){
+    .certified-container{
+        display: flex;
+        padding: 25px 0;
+        min-height: 370px;
+        width: 315px;
+        overflow-x: scroll;
+    }
+}
+
+
 
 @media screen and (min-width: 1025px) and (max-width:1440px){
     .certified-container{
@@ -21,5 +69,6 @@
         min-height: 370px;
         margin-bottom: 100px;
         overflow-x: scroll;
+        
     }
 }

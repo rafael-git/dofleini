@@ -1,5 +1,5 @@
 .certified{
-    margin-right: 100px;
+    margin-right: 0;
 }
 
 .img-certified{
@@ -87,5 +87,11 @@
 }
 .description-text{
     font: normal normal 500 18px/27px Segoe UI;
+}
+.certified-description{
+    display: flex;
+    flex-grow: 10;
+    align-items: center;
+    flex-direction: column;
 }
 
